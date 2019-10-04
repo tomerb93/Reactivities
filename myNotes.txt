@@ -1,0 +1,11 @@
+
+Use to create "data migration" and include "switches"
+for Persistence and API:
+    - dotnet ef migrations add InitialCreate -p Persistence/ -s API/
+
+^^ We'll see after this we'll have a new folder called migrations in
+Persistence folder.
+
+If we make any file changes our application automically restarts
+    - cd API/ (only works inside the context of startup project [API in this case])
+    - dotnet watch run
