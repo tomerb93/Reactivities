@@ -1,5 +1,12 @@
 API:
 
+Snippets (USE THIS!):
+    - using Snippet generator online you can add snippets which will make your
+    life extremely easy
+
+Creates the table:
+    - public DbSet<Value> Values { get; set; }
+
 Use to create "data migration" and include "switches"
 for Persistence and API:
     - dotnet ef migrations add InitialCreate -p Persistence/ -s API/
