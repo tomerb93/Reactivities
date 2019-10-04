@@ -1,11 +1,24 @@
+API:
 
 Use to create "data migration" and include "switches"
 for Persistence and API:
     - dotnet ef migrations add InitialCreate -p Persistence/ -s API/
 
-^^ We'll see after this we'll have a new folder called migrations in
+After this we'll have a new folder called 'Migrations' in
 Persistence folder.
 
-If we make any file changes our application automically restarts
+If we make any file changes our application automically restarts:
     - cd API/ (only works inside the context of startup project [API in this case])
     - dotnet watch run
+
+CLIENT:
+
+Creating the React app using NPM and with typescript support:
+    - npx create-react-app client-app --use-npm --typescript
+
+Creates a react component named after the file name created:
+    - create new tsx file with name of component
+    - inside of file, type 'rafc'
+
+Allows use of decorators:
+    - in tsconfig.json, add ,"experimentalDecorators": true
