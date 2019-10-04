@@ -11,6 +11,10 @@ If we make any file changes our application automically restarts:
     - cd API/ (only works inside the context of startup project [API in this case])
     - dotnet watch run
 
+Adding CORS
+    - add CORS in services in Startup.cs, using addCors()
+    - use CORS in configuration in Startup.cs using useCors()
+
 CLIENT:
 
 Creating the React app using NPM and with typescript support:
@@ -22,3 +26,10 @@ Creates a react component named after the file name created:
 
 Allows use of decorators:
     - in tsconfig.json, add ,"experimentalDecorators": true
+
+Axios:
+    - cd to react app folder
+    - npm i axios
+
+Semantic-UI-React (Angular Material equivalent)
+    - npm i semantic-ui-react
