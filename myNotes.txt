@@ -40,3 +40,7 @@ Axios:
 
 Semantic-UI-React (Angular Material equivalent)
     - npm i semantic-ui-react
+
+UUID: creates GUIDS
+    - cd to react app folder
+    - npm i uuid
