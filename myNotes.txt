@@ -22,9 +22,12 @@ Adding CORS
     - add CORS in services in Startup.cs, using addCors()
     - use CORS in configuration in Startup.cs using useCors()
 
+Deleting the database:
+    - dotnet ef database drop  -p Persistence/ -s API/
+
 CLIENT:
 
-Creating the React app using NPM and with typescript support:
+Creating the React app using NPM and with ypescript support:
     - npx create-react-app client-app --use-npm --typescript
 
 Creates a react component named after the file name created:
