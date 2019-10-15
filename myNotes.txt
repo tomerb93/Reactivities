@@ -47,3 +47,9 @@ Semantic-UI-React (Angular Material equivalent)
 UUID: creates GUIDS
     - cd to react app folder
     - npm i uuid
+
+Mobx:
+    - npm install mobx mobx-react-lite
+
+Mobx Developer Tools:
+    - google it, it's a chrome extension
